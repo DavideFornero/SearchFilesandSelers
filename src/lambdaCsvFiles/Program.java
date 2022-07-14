@@ -20,7 +20,7 @@ import java.util.Scanner;
 		Map<String, Double> map = new HashMap<>();
 		
 		
-		System.out.println("Enter the file name: ");
+		System.out.println("Enter file path: ");
 		
 		try {
 			try (BufferedReader scan = new BufferedReader(new FileReader(sc.nextLine()))) {
